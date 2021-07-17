@@ -3,8 +3,8 @@ Feature: Purchase a product
 
   Background
     Given User is in the login page
-    When User types a valid 'standard_user'
-    And Type a valid 'secret_sauce'
+    When User types a valid user name 'standard_user'
+    And Type a valid password 'secret_sauce'
     And Click on the Login button
     Then The application should load the Home page
 
