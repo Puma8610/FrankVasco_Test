@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features/test.feature",
-        glue = ("seleniumGlueCode")
+        features = "src/test/java/Features/test.feature",
+        glue = ("SeleniumGlueCode")
 )
 
 public class TestRunner {
